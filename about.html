@@ -1,27 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zenith Holidays | Best Holiday Packages and Travel Deals</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Font Awesome CDN -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
 </head>
 
-<body class="bg-gray-100">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -73,20 +75,371 @@
         </div>
     </nav>
 
-    <script>
-        const menuBtn = document.getElementById("mobile-menu-button");
-        const mobileMenu = document.getElementById("mobile-menu");
 
-        menuBtn.addEventListener("click", () => {
-            mobileMenu.classList.toggle("hidden");
+    <!-- Main Section -->
+
+    <!-- About Us Section -->
+    <section class="py-8 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <!-- Left -->
+                <div>
+                    <div class="text-3xl font-bold leading-snug mb-4">
+                        Explore About <br>
+                        <span class="text-cyan-500">Zenith Leisure Holidays</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Established in 1997, Zenith Leisure Holidays Ltd. stands as a premier travel company in India,
+                        offering a comprehensive range of travel services at competitive prices. With over two decades
+                        of industry expertise, we've earned a reputation for reliability and excellence, becoming the
+                        preferred choice for travelers nationwide.
+                    </p>
+                    <p class="text-gray-700">
+                        Our ethos revolves around the belief that
+                        <em><strong>The Journey Is More Important Than The Destination</strong></em>.
+                        At Zenith, our priority is to ensure a comfortable and enjoyable journey, coupled with memorable
+                        experiences for all our clients. From the moment our clients start their journey until its
+                        conclusion, we are committed to providing top-notch service and support. Our offerings cater to
+                        individuals, groups, students, honeymooners, corporate executives, and seniors alike.
+                    </p>
+                </div>
+
+                <!-- Right -->
+                <div>
+                    <img src="img/abt.jpeg" alt="About Zenith" class="w-full rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MICE Section -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+
+                <!-- Images Grid -->
+                <div class="grid grid-cols-2 gap-2 rounded-lg overflow-hidden">
+                    <img src="img/img-5.jpg" class="w-full h-full object-cover rounded-lg" alt="">
+                    <img src="img/img-3.jpg" class="w-5/6 mx-auto mt-6 object-cover rounded-lg" alt="">
+                    <img src="img/img-4.jpg" class="w-5/6 ml-auto object-cover rounded-lg" alt="">
+                    <img src="img/img-6.jpg" class="w-full h-full object-cover rounded-lg" alt="">
+                </div>
+
+                <!-- Content -->
+                <div>
+                    <h4 class="text-xl font-bold text-black mb-4">MICE</h4>
+                    <p class="text-gray-700 mb-4">
+                        Originally focused on the MICE segment, Zenith has since diversified into Events, Leisure
+                        Travel, Foreign Exchange, Inbound Travel, and Rewards & Recognition programs. Guided by industry
+                        experts in hospitality, hotels, and travel, we've maintained our position as one of India's
+                        leading travel companies.
+                    </p>
+                    <p class="text-gray-700 mb-6">
+                        Our success is indebted to the satisfaction of countless guests nationwide. As we move forward,
+                        Zenith remains dedicated to upholding the same high standards and nurturing long-term
+                        relationships with our valued customers for generations to come.
+                    </p>
+
+                    <!-- Services Icons -->
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <p class="text-sm">Flight</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-hotel"></i>
+                            </div>
+                            <p class="text-sm">Hotel</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-bus"></i>
+                            </div>
+                            <p class="text-sm">Bus</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-train"></i>
+                            </div>
+                            <p class="text-sm">Train</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-taxi"></i>
+                            </div>
+                            <p class="text-sm">Cab</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-ship"></i>
+                            </div>
+                            <p class="text-sm">Cruise</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <p class="text-sm">Activity</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <p class="text-sm">Holiday</p>
+                        </div>
+                        <div class="flex flex-col items-center w-20">
+                            <div
+                                class="bg-cyan-500 text-white rounded-full w-14 h-14 flex items-center justify-center mb-2">
+                                <i class="fas fa-helicopter"></i>
+                            </div>
+                            <p class="text-sm">Charter</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-timeline">
+        <div class="container">
+            <h2 class="pre-service-heading" style="text-align: center;"> <span>About Zenith Holidays</span></h2>
+            <ul class="py-3">
+                <li>
+                    <div class="date" style="background-color:#F54B42;">The Journey Is More Important Than The
+                        Destination </div>
+                    <div class="descr" style="border-left: 3px solid #F54B42;"> Founded in 1997 as a MICE (Meetings,
+                        Incentives, Conferences, Exhibitions) travel company, now diversified into Leisure Travel,
+                        Creative Marketing, Events, Inbound Travel, E-Business, Forex, and DMC Business. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#00B0E6;">Vision and Mission of Zenith Holidays</div>
+                    <div class="descr" style="border-left: 3px solid #00B0E6;"> To be a market leader with revolutionary
+                        technology, delivering value and delightful travel experiences globally with a committed,
+                        empowered team. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#FFD43B;">Why Choose Zenith Holidays?</div>
+                    <div class="descr" style="border-left: 3px solid #FFD43B;"> Offering a wide range of holiday
+                        packages—custom or fixed—it meets the travel needs of every Indian traveler segment. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#005BA5;">Offers at Zenith Holidays</div>
+                    <div class="descr" style="border-left: 3px solid #005BA5;"> Hassle-free packages with hotels,
+                        transfers, sightseeing, meals, and tailored experiences. Destinations include Andaman, Kerala,
+                        North East, and more. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#F54B42;">Book Amazing Packages</div>
+                    <div class="descr" style="border-left: 3px solid #F54B42;"> Use filters on our website or get expert
+                        support to easily book customized or pre-designed packages online or offline. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#00B0E6;">Travel Insurance</div>
+                    <div class="descr" style="border-left: 3px solid #00B0E6;"> For your peace of mind, Zenith Holidays
+                        offers travel insurance packages, ensuring compliance with mandatory requirements for entry into
+                        many countries. Discover the joy of seamless travel with Zenith Holidays. Plan your ideal
+                        holiday effortlessly and start unforgettable journeys with us. </div>
+                </li>
+                <li>
+                    <div class="date" style="background-color:#FFD43B;">Our Branches</div>
+                    <div class="descr" style="border-left: 3px solid #FFD43B;"> Noida, Chandigarh, Guwahati, Indore,
+                        Kolkata, Pune, Ahmedabad, Delhi, Surat, Vadodara, Rajkot, Gujarat, Mumbai, Salt Lake Kolkata,
+                        Siliguri, Jalandhar, Hyderabad, Coimbatore, Chennai, Bengaluru </div>
+                </li>
+            </ul>
+        </div>
+    </section> <!-- <section class="journey grey-bg py-5"> </section> -->
+    <section class="counter-section">
+        <div class="container grey-bg pt-3" style="border-radius: 20px;">
+            <div class="row">
+                <div class="counter-box">
+                    <h3 class="counter" data-target="700">0</h3>
+                    <p>Employees</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="60000">0</h3>
+                    <p>Travel Agents</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="25">0</h3>
+                    <p>Years</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="20">20</h3>
+                    <p>Branch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section">
+        <div class="container grey-bg pt-3" style="border-radius: 20px;">
+            <div class="row">
+                <div class="counter-box">
+                    <h3 class="counter" data-target="700">0</h3>
+                    <p>Employees</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="60000">0</h3>
+                    <p>Travel Agents</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="25">0</h3>
+                    <p>Years</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="20">20</h3>
+                    <p>Branch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.counter');
+            const duration = 2000; // Total animation time in ms
+
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                let count = 0;
+                const startTime = performance.now();
+
+                const update = (now) => {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    count = Math.floor(progress * target);
+
+                    if (target >= 1000) {
+                        counter.innerText = `${Math.floor(count / 1000)}K+`;
+                    } else {
+                        counter.innerText = `${count}+`;
+                    }
+
+                    if (progress < 1) {
+                        requestAnimationFrame(update);
+                    } else {
+                        counter.innerText = target >= 1000 ? `${Math.floor(target / 1000)}K+` : `${target}+`;
+                    }
+                };
+
+                requestAnimationFrame(update);
+            });
         });
     </script>
 
+    <section class="board-section grey-bg">
+        <div class="container">
+            <h2 class="pre-service-heading py-3" style="text-align: center;"> <span>Meet Our Directors</span></h2>
+            <div class="board-grid">
 
+                <div class="director-card"><img src="img/demo.jpg" alt="Not Found" class="director-image" />
+                    <div class="director-info">
+                        <div class="director-role">Co-founder & CEO</div>
+                        <h3 class="director-name">Lorem ipsum </h3>
+                        <p class="director-desc short">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                            qui
+                            illum exercitationem! </p>
+                        <p class="director-desc full hidden">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic corporis nostrum ad
+                            alias
+                            corrupti autem a, laudantium, voluptate id nesciunt. Iste, quo illo sunt voluptas dolor
+                            fugit
+                            blanditiis suscipit.
+                            ipsum dolor, sit amet consectetur adipisicing elit. Earum qui illum exercitationem! </p><a
+                            href="#" class="read-toggle" onclick="toggleReadMore(this)">📘 Read More</a>
+                    </div>
+                </div>
+                <div class="director-card"><img src="img/demo.jpg" alt="Not Found" class="director-image" />
+                    <div class="director-info">
+                        <div class="director-role">Co-founder & CEO</div>
+                        <h3 class="director-name">Lorem ipsum </h3>
+                        <p class="director-desc short">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                            qui
+                            illum exercitationem! </p>
+                        <p class="director-desc full hidden">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic corporis nostrum ad
+                            alias
+                            corrupti autem a, laudantium, voluptate id nesciunt. Iste, quo illo sunt voluptas dolor
+                            fugit
+                            blanditiis suscipit.
+                            ipsum dolor, sit amet consectetur adipisicing elit. Earum qui illum exercitationem! </p><a
+                            href="#" class="read-toggle" onclick="toggleReadMore(this)">📘 Read More</a>
+                    </div>
+                </div>
+                <div class="director-card"><img src="img/demo.jpg" alt="Not Found" class="director-image" />
+                    <div class="director-info">
+                        <div class="director-role">Co-founder & CEO</div>
+                        <h3 class="director-name">Lorem ipsum </h3>
+                        <p class="director-desc short">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                            qui
+                            illum exercitationem! </p>
+                        <p class="director-desc full hidden">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic corporis nostrum ad
+                            alias
+                            corrupti autem a, laudantium, voluptate id nesciunt. Iste, quo illo sunt voluptas dolor
+                            fugit
+                            blanditiis suscipit.
+                            ipsum dolor, sit amet consectetur adipisicing elit. Earum qui illum exercitationem! </p><a
+                            href="#" class="read-toggle" onclick="toggleReadMore(this)">📘 Read More</a>
+                    </div>
+                </div>
+                <div class="director-card"><img src="img/demo.jpg" alt="Not Found" class="director-image" />
+                    <div class="director-info">
+                        <div class="director-role">Co-founder & CEO</div>
+                        <h3 class="director-name">Lorem ipsum </h3>
+                        <p class="director-desc short">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                            qui
+                            illum exercitationem! </p>
+                        <p class="director-desc full hidden">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic corporis nostrum ad
+                            alias
+                            corrupti autem a, laudantium, voluptate id nesciunt. Iste, quo illo sunt voluptas dolor
+                            fugit
+                            blanditiis suscipit.
+                            ipsum dolor, sit amet consectetur adipisicing elit. Earum qui illum exercitationem! </p><a
+                            href="#" class="read-toggle" onclick="toggleReadMore(this)">📘 Read More</a>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
 
+    <script>
+        function toggleReadMore(el) {
+            const shortText = el.parentElement.querySelector('.short');
+            const fullText = el.parentElement.querySelector('.full');
+            const isHidden = fullText.classList.contains('hidden');
 
+            if (isHidden) {
+                shortText.classList.add('hidden');
+                fullText.classList.remove('hidden');
+                el.textContent = "🔽 Read Less";
+            } else {
+                shortText.classList.remove('hidden');
+                fullText.classList.add('hidden');
+                el.textContent = "📘 Read More";
+            }
 
+            event.preventDefault();
+        }
+    </script>
 
 
     <!-- Modern Footer -->
@@ -534,9 +887,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-   
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script src="zenith.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-
-
 
 </html>
