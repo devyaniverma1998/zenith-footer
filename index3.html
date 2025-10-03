@@ -303,199 +303,57 @@
 </head>
 
 <body class="bg-gray-100">
-<nav class="bg-white shadow-lg w-full z-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between h-16">
-      <!-- Logo -->
-      <div class="flex items-center logo">
-        <a href="/">
-          <img src="img/zenith_logo.svg" alt="Zenith MICE Logo" aria-label="Zenith MICE Logo" class="h-10">
-        </a>
-      </div>
+    <nav class="bg-white shadow-lg w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center logo">
+                    <a href="/">
+                        <img src="img/zenith_logo.svg" alt="Zenith MICE Logo" aria-label="Zenith MICE Logo"
+                            class="h-10">
+                    </a>
+                </div>
 
-      <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-6">
-        <a href="index.html" class="text-gray-700 hover:text-cyan-600 transition">Option 1</a>
-        <a href="index2.html" class="text-gray-700 hover:text-cyan-600 transition">Option 2</a>
-        <a href="index3.html" class="text-gray-700 hover:text-cyan-600 transition">Option 3</a>
-        <a href="index4.html" class="text-gray-700 hover:text-cyan-600 transition">Option 4</a>
-        
-      </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-cyan-600 transition">Option 1</a>
+                    <a href="index2.html" class="text-gray-700 hover:text-cyan-600 transition">Option 2</a>
+                    <a href="index3.html" class="text-gray-700 hover:text-cyan-600 transition">Option 3</a>
+                    <a href="index4.html" class="text-gray-700 hover:text-cyan-600 transition">Option 4</a>
 
-      <!-- Mobile Toggle -->
-      <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
-        <i class="bi bi-list text-3xl"></i>
-      </button>
-    </div>
-  </div>
+                </div>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
-    <div class="px-4 py-2 space-y-2">
-      <a href="index.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 1</a>
-      <a href="index2.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 2</a>
-      <a href="index3.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 3</a>
-      <a href="index4.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 4</a>
-   
-    </div>
-  </div>
-</nav>
-
-<script>
-  const menuBtn = document.getElementById("mobile-menu-button");
-  const mobileMenu = document.getElementById("mobile-menu");
-
-  menuBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-  });
-</script>
-
-    <section id="hero" class="w-100">
-        <picture>
-            <!-- Mobile Image -->
-            <source media="(max-width: 767px)" srcset="img/m-1.png">
-            <!-- Desktop Image -->
-            <img src="img/desktop-1.png" class="img-fluid w-100" alt="Hero Banner">
-        </picture>
-    </section>
-
-
-    <!-- About Us Section -->
-    <section id="about-us" class="relative py-20 bg-gradient-to-br from-white via-cyan-50 to-cyan-100">
-        <div class="max-w-6xl mx-auto px-6 lg:px-12 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                About <span class="text-cyan-600">Zenith MICE</span>
-            </h2>
-            <p class="text-lg text-gray-600 leading-relaxed mb-10">
-                Zenith brings a fresh dimension to business tourism. Whether you want to reward employees,
-                engage clients, or strengthen bonds with channel partners,
-                we design <span class="font-semibold text-cyan-600">meaningful experiences</span> that cover every
-                aspect of MICE – anywhere across the globe. Our expert team acts as your single point of contact,
-                managing everything from intimate off-sites to large-scale events and conferences.
-            </p>
-            <div
-                class="relative bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-8 md:p-12 text-left hover:shadow-2xl transition">
-                <span
-                    class="absolute -top-5 -left-5 w-16 h-16 flex items-center justify-center text-xl font-bold text-white bg-gradient-to-br from-cyan-600 to-blue-600 rounded-2xl shadow-md">
-                    MICE
-                </span>
-                <p class="text-gray-700 leading-relaxed mb-4">
-                    In the hospitality world, <span class="font-semibold text-cyan-600">MICE (Meetings, Incentives,
-                        Conferences, and Exhibitions)</span> has become a vital part of business travel. It supports
-                    organisations in hosting workshops, product
-                    launches, corporate meetings, and seminars with <span class="font-medium">ease and
-                        precision</span>.
-                </p>
-                <p class="text-gray-700 leading-relaxed">
-                    A well-structured MICE calendar not only ensures smooth business operations but also
-                    <span class="font-semibold text-cyan-600">uplifts workplace culture</span>, boosts branding
-                    opportunities, and fosters new collaborations. Beyond business, it strengthens employer–employee
-                    relationships and
-                    builds lasting connections with future clients.
-                </p>
+                <!-- Mobile Toggle -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                    <i class="bi bi-list text-3xl"></i>
+                </button>
             </div>
         </div>
-    </section>
 
-    <!-- Expertise Section -->
-    <section id="expertise" class="relative py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Zenith’s Expertise in <span class="text-cyan-600">MICE</span>
-            </h3>
-            <p class="text-gray-600 max-w-3xl mx-auto mb-12">
-                Zenith stands as one of the most trusted names in MICE travel across India.
-                With our destination expertise, advanced technology, and seamless execution,
-                we don’t just organize business travel & events — we craft <span
-                    class="font-semibold text-cyan-600">impactful experiences</span>.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-3">
-                <div
-                    class="group relative bg-white/70 backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-105 transition transform duration-300">
-                    <div class="logo-img">
-                        <img src="img/Meetings.png" width="100" alt="Meetings Icon" aria-label="Meetings">
-                    </div>
-                    <ul class="space-y-2 text-gray-600 text-sm text-left mt-4">
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-blue-600 mr-2"></i>
-                            Leadership Huddles</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-blue-600 mr-2"></i>
-                            Strategic Roundtables</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-blue-600 mr-2"></i>
-                            Knowledge Sharing Sessions</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-blue-600 mr-2"></i>
-                            Business Briefings</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-blue-600 mr-2"></i>
-                            Executive Gatherings</li>
-                    </ul>
-                </div>
-                <div
-                    class="group relative bg-white/70 backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-105 transition transform duration-300">
-                    <div class="logo-img">
-                        <img src="img/Incentives.png" width="100" alt="Incentives Icon" aria-label="Incentives">
-                    </div>
-                    <ul class="space-y-2 text-gray-600 text-sm text-left mt-4">
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-pink-600 mr-2"></i>
-                            Exclusive Team Getaways</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-pink-600 mr-2"></i>
-                            Adventure Escapes</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-pink-600 mr-2"></i>
-                            Leadership Retreats</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-pink-600 mr-2"></i>
-                            Partner Appreciation Trips</li>
-                        <li class="flex items-center"><i class="bi bi-check-circle-fill w-5 h-5 text-pink-600 mr-2"></i>
-                            Global Trade Journeys</li>
-                    </ul>
-                </div>
-                <div
-                    class="group relative bg-white/70 backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-105 transition transform duration-300">
-                    <div class="logo-img">
-                        <img src="img/Conferences.png" width="100" alt="Conferences Icon"
-                            aria-label="Conferences">
-                    </div>
-                    <ul class="space-y-2 text-gray-600 text-sm text-left mt-4">
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-green-600 mr-2"></i>
-                            Healthcare Summits</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-green-600 mr-2"></i>
-                            Industry Forums</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-green-600 mr-2"></i>
-                            Professional Networking Meets</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-green-600 mr-2"></i>
-                            Knowledge Forums</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-green-600 mr-2"></i>
-                            Association Gatherings</li>
-                    </ul>
-                </div>
-                <div
-                    class="group relative bg-white/70 backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-2xl hover:scale-105 transition transform duration-300">
-                    <div class="logo-img">
-                        <img src="img/Events.png" width="100" alt="Exhibitions Icon" aria-label="Exhibitions">
-                    </div>
-                    <ul class="space-y-2 text-gray-600 text-sm text-left mt-4">
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-orange-600 mr-2"></i>
-                            Employee Milestone Celebrations</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-orange-600 mr-2"></i>
-                            Starry Gala Evenings</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-orange-600 mr-2"></i>
-                            Brand Launch Experiences</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-orange-600 mr-2"></i>
-                            Exhibition Booths</li>
-                        <li class="flex items-center"><i
-                                class="bi bi-check-circle-fill w-5 h-5 text-orange-600 mr-2"></i>
-                            Digital Summits & Webinars</li>
-                    </ul>
-                </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-4 py-2 space-y-2">
+                <a href="index.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 1</a>
+                <a href="index2.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 2</a>
+                <a href="index3.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 3</a>
+                <a href="index4.html" class="block text-gray-700 hover:text-cyan-600 transition">Option 4</a>
+
             </div>
         </div>
-    </section>
+    </nav>
+
+    <script>
+        const menuBtn = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+
+
+
 
 
 
@@ -560,39 +418,62 @@
                         <!-- Services Tab -->
                         <div id="services" class="tab-content block">
                             <h3 class="text-xl font-bold mb-6 section-title">Our Premium Services</h3>
-                            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-umbrella-beach text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Holidays</div>
+                                    <a href="https://www.zenithholidays.com/holiday/search" target="_blank">
+                                        <i class="fa-solid fa-umbrella-beach text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Holidays</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-plane text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Flights</div>
+                                    <a href=" https://www.zenithholidays.com/flights " target="_blank">
+                                        <i class="fa-solid fa-plane text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Flights</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-bed text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Hotels</div>
+                                    <a href="https://www.zenithholidays.com/hotels" target="_blank">
+                                        <i class="fa-solid fa-bed text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Hotels</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-hiking text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Activities</div>
+                                    <a href="https://www.zenithholidays.com/activities" target="_blank">
+                                        <i class="fa-solid fa-hiking text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Activities</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-car text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Cabs</div>
+                                    <a href="https://www.zenithholidays.com/cars" target="_blank">
+                                        <i class="fa-solid fa-car text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Cabs</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-coins text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Forex</div>
+                                    <a href="https://www.zenithforexonline.com/" target="_blank">
+                                        <i class="fa-solid fa-coins text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Forex</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-passport text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">VISA</div>
+                                    <a href="https://visa.zenithholidays.com/" target="_blank">
+                                        <i class="fa-solid fa-passport text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">VISA</div>
+                                    </a>
                                 </div>
                                 <div class="grid-item text-center">
-                                    <i class="fa-solid fa-shield-alt text-2xl text-cyan-400 mb-2"></i>
-                                    <div class="text-sm font-medium">Insurance</div>
+                                    <a href="https://insurance.zenithholidays.com/" target="_blank">
+                                        <i class="fa-solid fa-shield-alt text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Insurance</div>
+                                    </a>
                                 </div>
+                                <div class="grid-item text-center">
+                                    <a href="https://railways.zenithholidays.com/" target="_blank">
+                                        <i class="fa-solid fa-train text-2xl text-cyan-400 mb-2"></i>
+                                        <div class="text-sm font-medium">Train</div>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
 
@@ -605,29 +486,34 @@
                                 personalized service and attention to detail.
                             </p>
                             <div class="grid grid-cols-2 gap-3">
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://blog.zenithholidays.com/" class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-blog text-cyan-400"></i>
                                     <span>Blog</span>
                                 </a>
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://www.zenithholidays.com/testimonial"
+                                    class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-star text-cyan-400"></i>
                                     <span>Testimonials</span>
                                 </a>
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://www.zenithholidays.com/contact-us"
+                                    class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-envelope text-cyan-400"></i>
                                     <span>Contact Us</span>
                                 </a>
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://www.zenithholidays.com/terms-of-use"
+                                    class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-file-contract text-cyan-400"></i>
                                     <span>Terms & Conditions</span>
                                 </a>
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://www.zenithholidays.com/privacy-policy"
+                                    class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-shield-alt text-cyan-400"></i>
                                     <span>Privacy Policy</span>
                                 </a>
-                                <a href="#" class="grid-item flex items-center gap-2">
+                                <a href="https://www.zenithholidays.com/about"
+                                    class="grid-item flex items-center gap-2">
                                     <i class="fa-solid fa-certificate text-cyan-400"></i>
-                                    <span>Awards</span>
+                                    <span>About Info</span>
                                 </a>
                             </div>
 
@@ -637,27 +523,35 @@
                         <div id="payment" class="tab-content hidden">
                             <h3 class="text-xl font-bold mb-6 section-title">Secure Payment Options</h3>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="grid-item bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-xl ">
+                                <a href="https://www.zenithholidays.com/payment/credit-debit" target="_blank"
+                                    class="grid-item block bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-xl">
                                     <i class="fa-solid fa-credit-card text-2xl mb-2"></i>
                                     <div class="font-semibold">Credit & Debit Cards</div>
                                     <div class="text-sm opacity-80">Visa, MasterCard, Amex</div>
-                                </div>
-                                <div class="grid-item bg-gradient-to-r from-green-600 to-teal-600 p-2 rounded-xl ">
+                                </a>
+
+                                <a href="https://www.zenithholidays.com/payment/net-banking" target="_blank"
+                                    class="grid-item block bg-gradient-to-r from-green-600 to-teal-600 p-2 rounded-xl">
                                     <i class="fa-solid fa-university text-2xl mb-2"></i>
                                     <div class="font-semibold">Net Banking</div>
                                     <div class="text-sm opacity-80">All major banks supported</div>
-                                </div>
-                                <div class="grid-item bg-gradient-to-r from-orange-600 to-red-600 p-2 rounded-xl ">
+                                </a>
+
+                                <a href="https://www.zenithholidays.com/payment/upi-wallets" target="_blank"
+                                    class="grid-item block bg-gradient-to-r from-orange-600 to-red-600 p-2 rounded-xl">
                                     <i class="fa-solid fa-mobile-alt text-2xl mb-2"></i>
                                     <div class="font-semibold">UPI & Wallets</div>
                                     <div class="text-sm opacity-80">PhonePe, GPay, Paytm</div>
-                                </div>
-                                <div class="grid-item bg-gradient-to-r from-indigo-600 to-blue-600 p-2 rounded-xl ">
+                                </a>
+
+                                <a href="https://www.zenithholidays.com/payment/international-cards" target="_blank"
+                                    class="grid-item block bg-gradient-to-r from-indigo-600 to-blue-600 p-2 rounded-xl">
                                     <i class="fa-solid fa-globe text-2xl mb-2"></i>
                                     <div class="font-semibold">International Cards</div>
                                     <div class="text-sm opacity-80">Worldwide acceptance</div>
-                                </div>
+                                </a>
                             </div>
+
                         </div>
 
                         <!-- Information Tab -->
@@ -692,73 +586,137 @@
                         </div>
 
                         <!-- Locations Tab -->
+
                         <div id="locations" class="tab-content hidden">
                             <h3 class="text-xl font-bold mb-6 section-title">Our Branch Network</h3>
+
                             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-sm">
-                                <div class="grid-item">Delhi</div>
-                                <div class="grid-item">Mumbai</div>
-                                <div class="grid-item">Bengaluru</div>
-                                <div class="grid-item">Chennai</div>
-                                <div class="grid-item">Kolkata</div>
-                                <div class="grid-item">Hyderabad</div>
-                                <div class="grid-item">Pune</div>
-                                <div class="grid-item">Ahmedabad</div>
-                                <div class="grid-item">Noida</div>
-                                <div class="grid-item">Chandigarh</div>
-                                <div class="grid-item">Guwahati</div>
-                                <div class="grid-item">Indore</div>
-                                <div class="grid-item">Surat</div>
-                                <div class="grid-item">Vadodara</div>
-                                <div class="grid-item">Rajkot</div>
-                                <div class="grid-item">Jalandhar</div>
-                                <div class="grid-item">Coimbatore</div>
-                                <div class="grid-item">Siliguri</div>
-                                <div class="grid-item">Salt Lake</div>
-                                <div class="grid-item">& More...</div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/noida/travel-agency.html"
+                                        target="_blank">Noida</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/chandigarh/travel-agency.html"
+                                        target="_blank">Chandigarh</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/guwahati/travel-agency.html"
+                                        target="_blank">Guwahati</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/indore/travel-agency.html"
+                                        target="_blank">Indore</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/kolkata/travel-agency.html"
+                                        target="_blank">Kolkata</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/pune/travel-agency.html"
+                                        target="_blank">Pune</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/ahmedabad/travel-agency.html"
+                                        target="_blank">Ahmedabad</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/delhi/travel-agency.html"
+                                        target="_blank">Delhi</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/surat/travel-agency.html"
+                                        target="_blank">Surat</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/vadodara/travel-agency.html"
+                                        target="_blank">Vadodara</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/rajkot/travel-agency.html"
+                                        target="_blank">Rajkot</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/anand/travel-agency.html"
+                                        target="_blank">Gujarat</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/mumbai/travel-agency.html"
+                                        target="_blank">Mumbai</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/salt-lake/travel-agency.html"
+                                        target="_blank">Salt Lake Kolkata</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/siliguri/travel-agency.html"
+                                        target="_blank">Siliguri</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/jalandhar/travel-agency.html"
+                                        target="_blank">Jalandhar</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/hyderabad/travel-agency.html"
+                                        target="_blank">Hyderabad</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/coimbatore/travel-agency.html"
+                                        target="_blank">Coimbatore</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/chennai/travel-agency.html"
+                                        target="_blank">Chennai</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/blog/branch/bengaluru/travel-agency.html"
+                                        target="_blank">Bengaluru</a></div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <!-- Quick Travel Packages -->
                 <div class="lg:col-span-1">
-                    <h3 class="text-xl font-bold mb-6 section-title"> Domestic</h3>
+                    <h3 class="text-xl font-bold mb-6 section-title">Domestic</h3>
                     <div class="space-y-4">
                         <div class="content-panel rounded-xl p-4">
                             <h4 class="font-semibold text-cyan-400 mb-3 flex items-center gap-2">
-                                <i class="fa-solid fa-flag-india"></i>
+                                <i class="fa-solid fa-national"></i>
                                 Tours
                             </h4>
                             <div class="space-y-2 text-sm">
-                                <div class="grid-item"> Himachal Pradesh</div>
-                                <div class="grid-item"> Kerala Backwaters</div>
-                                <div class="grid-item"> Rajasthan Heritage</div>
-                                <div class="grid-item"> Kashmir Valley</div>
-                                <div class="grid-item"> Andaman Islands</div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Himachal+Pradesh&type=1&category=&month="
+                                        target="_blank">Himachal Pradesh</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=kerala&type=1&category=&month="
+                                        target="_blank">Kerala Backwaters</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=rajasthan&type=1&category=&month="
+                                        target="_blank">Rajasthan Heritage</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=kashmir&type=1&category=&month="
+                                        target="_blank">Kashmir Valley</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=+Andaman&type=1&category=&month="
+                                        target="_blank">Andaman Islands</a></div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <div class="lg:col-span-1">
-                    <h3 class="text-xl font-bold mb-6 section-title"> International</h3>
-                    <div class="space-y-4">
 
+                <div class="lg:col-span-1">
+                    <h3 class="text-xl font-bold mb-6 section-title">International</h3>
+                    <div class="space-y-4">
                         <div class="content-panel rounded-xl p-4">
                             <h4 class="font-semibold text-cyan-400 mb-3 flex items-center gap-2">
                                 <i class="fa-solid fa-globe"></i>
                                 Tours
                             </h4>
                             <div class="space-y-2 text-sm">
-                                <div class="grid-item"> Dubai & UAE</div>
-                                <div class="grid-item"> Bali, Indonesia</div>
-                                <div class="grid-item"> Switzerland</div>
-                                <div class="grid-item"> Maldives</div>
-                                <div class="grid-item"> Japan</div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Dubai&type=1&category=&month="
+                                        target="_blank">Dubai & UAE</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Indonesia&type=2&category=&month="
+                                        target="_blank">Bali, Indonesia</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Switzerland&type=2&category=&month="
+                                        target="_blank">Switzerland</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Maldives&type=2&category=&month="
+                                        target="_blank">Maldives</a></div>
+                                <div class="grid-item"><a
+                                        href="https://www.zenithholidays.com/holiday/search?searchby=Japan&type=2&category=&month="
+                                        target="_blank">Japan</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- Bottom Section -->
@@ -782,7 +740,7 @@
                     </div>
                 </div>
                 <div class="mt-4 text-center text-xs text-gray-500">
-                    © 2025 Zenith Holidays. All rights reserved. | Licensed Travel Agency | IATA Certified
+                    © 1997 - 2025 Zenith Holidays. All rights reserved.
                 </div>
             </div>
         </div>
